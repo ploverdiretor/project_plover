@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="description" content="">
+	<title>plover project</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="stylesheet" type="text/css" media="all" href="style.css">
+	<script src="js/jquery1.4.4.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body>
+
+	<header id="header" role="banner">
+		<h1>web audio api等を使用した実験など</h1>
+		<div class="logo">
+			<a href="index.html" title="plover project" rel="home">plover project<span>web audio api / web MIDI api</span></a>
+		</div>
+		<div class="info">
+		</div>
+	</header>
+
+	<nav id="mainNav">
+		<div class="inner">
+			<a class="menu" id="menu"><span>MENU</span></a>
+			<div class="panel">
+				<ul>
+					<li><a href="index.html"><strong>トップページ</strong><span>Top</span></a></li>
+					<li><a href="web_app01.html"><strong>ブラウザ・シンセサイザー</strong><span>Browser Synthesizer</span></a></li>
+					<li><a href="web_app02.html"><strong>音声認識／合成</strong><span>Recognition Synthesis</span></a></li>
+					<li class="current-menu-item"><a href="remoteController01.html"><strong>組み込みソフトウェア</strong><span>Embedded software</span></a>
+						<ul class="sub-menu">
+							<li><a href="remoteController01.html">共通リモコン</a></li>
+							<li><a href="drone01.html">ドローン1st</a></li>
+							<li><a href="mecanum01.html">メカナム車</a></li>
+							<li><a href="seeeduino.html">DFPlayer実験</a></li>
+							<li><a href="drone02.html">ドローン2nd</a></li>
+						</ul>
+					</li>
+					<li><a href="private.html"><strong>俺得ツール</strong><span>tools</span></a></li>
+					<li><a href="photo.html"><strong>写真</strong><span>Photo</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="wrapper">
+
+		<section id="main">
+			<section id="post-250" class="content">
+				<h3 class="heading">共通リモコン</h3>
+				<img width="50%" height="50%" src="images/remoteController/remoteController.JPG" alt="">
+				<p>ESP-NOWを使用した共通リモコンです。</p>
+				<article class="post">
+					<h3>ESP-NOWとは</h3>
+					<p>ESP-NOWは、Espressifが提供する connectionless な無線通信方式です。Wi-Fiルーターへ接続しなくても、ESP32同士で直接データをやり取りできます。簡単に言うとESP32専用の、軽量・近距離・即応型の無線メッセージ通信です。
+					<br>
+					<h3>回路図</h3>
+					<a href="images/remoteController/joystickV2_001.png" target="_blank" rel="noopener"><img width="50%" height="50%" src="images/remoteController/joystickV2_001.png" alt=""></a><p>クリックすると別タブで開きます。</p>
+				</article>
+			</section>
+		</section>
+
+		<aside id="sidebar">
+			<section>
+				<h3 class="heading"><span>ArduinoIDE</span></h3>
+				<article>
+					<ul>
+						<li><a href="https://ploverdiretor.github.io/Arduino260614/joystick_board02/joystick_board02.ino">joystick_board02.ino</a></li>
+						<li><a href="https://ploverdiretor.github.io/Arduino260614/joystick_board02/09_setup.ino">09_setup.ino</a></li>
+						<li><a href="https://ploverdiretor.github.io/Arduino260614/joystick_board02/10_loop.ino">10_loop.ino</a></li>
+						<li><a href="https://ploverdiretor.github.io/Arduino260614/joystick_board02/11_get_adValue1.ino">11_get_adValue1.ino</a></li>
+						<li><a href="https://ploverdiretor.github.io/Arduino260614/joystick_board02/12_get_adValue2.ino">12_get_adValue2.ino</a></li>
+					</ul>
+				</article>
+			</section>
+			<section>
+				<h3 class="heading"><span>リンク</span></h3>
+				<article>
+					<ul class="menu">
+						<li><a href="https://www.google.com/?hl=ja&#038;gws_rd=ssl">Google</a></li>
+						<li><a href="http://www.yahoo.co.jp/">Yahoo!JAPAN</a></li>
+						<li><a href="http://www.amazon.co.jp/">Amazon</a></li>
+					</ul>
+				</article>
+			</section>
+		</aside>
+
+	<footer id="footer">
+		<div class="inner">
+			<div id="info" class="grid">
+				<div class="logo">
+					<a href="index.html" title="" rel="home">plover project<span>web audio api / web MIDI api</span></a>
+				</div>
+				<div class="info">
+				</div>
+			</div>
+			<div class="menu">
+				<ul class="footnav">
+					<li><a href="index.html">活動概要</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+		<p id="copyright">Copyright(c) 2016 ホームページサンプル株式会社 All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank" rel="nofollow">http://f-tpl.com</a></p><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
+
+	</div>
+
+</body>
+</html>
